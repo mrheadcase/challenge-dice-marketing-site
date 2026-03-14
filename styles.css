@@ -330,6 +330,90 @@ a {
   padding: 0.9rem;
 }
 
+/* ===== Privacy Page ===== */
+.privacy-header {
+  background: #1a0d04;
+  padding: 1.25rem 0;
+}
+
+.back-link {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: #f0d590;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #e8a020;
+}
+
+.privacy-content h1 {
+  font-size: 2rem;
+  color: #3a1e08;
+  margin-bottom: 0.25rem;
+}
+
+.privacy-content .last-updated {
+  color: #8a7a60;
+  margin-bottom: 2rem;
+}
+
+.privacy-content h2 {
+  text-align: left;
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+}
+
+.privacy-content h2::after {
+  margin: 0.5rem 0 1rem;
+}
+
+.privacy-content h3 {
+  font-size: 1.1rem;
+  color: #3a1e08;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.privacy-content p {
+  color: #5a3d20;
+  margin-bottom: 1rem;
+}
+
+.privacy-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.privacy-content ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.6rem;
+  color: #5a3d20;
+}
+
+.privacy-content ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(135deg, #e8a020, #c47a10);
+  border-radius: 50%;
+}
+
+.privacy-content a {
+  color: #c47a10;
+  text-decoration: underline;
+}
+
+.privacy-content a:hover {
+  color: #e8a020;
+}
+
 /* ===== Footer ===== */
 .footer {
   background: #1a0d04;
@@ -337,6 +421,15 @@ a {
   text-align: center;
   padding: 2rem 0;
   font-size: 0.85rem;
+}
+
+.footer a {
+  color: #b8a888;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #f0d590;
 }
 
 /* ===== Responsive ===== */
