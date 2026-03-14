@@ -111,6 +111,26 @@ a {
   transform: translateY(0);
 }
 
+.cta-button-secondary {
+  background: transparent;
+  border: 2px solid #e8a020;
+  color: #f0d590;
+  box-shadow: 0 4px 15px rgba(200, 130, 20, 0.2);
+}
+
+.cta-button-secondary:hover {
+  background: rgba(232, 160, 32, 0.15);
+  box-shadow: 0 6px 25px rgba(200, 130, 20, 0.35);
+}
+
+.cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ===== Sections ===== */
 .section {
   padding: 5rem 0;
